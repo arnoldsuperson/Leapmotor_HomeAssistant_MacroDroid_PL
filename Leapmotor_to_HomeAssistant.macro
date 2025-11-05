@@ -1,0 +1,2463 @@
+{
+  "globalVariables": [],
+  "macro": {
+    "disabledTimestamp": 0,
+    "exportedActionBlocks": [],
+    "forceEvenIfNotEnabledTimestamp": 0,
+    "isActionBlock": false,
+    "isExtra": false,
+    "isFavourite": false,
+    "lastEditedTimestamp": 1762380925753,
+    "localVariables": [
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "current_app",
+        "m_stringValue": "com.arlosoft.macrodroid",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "description": "",
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": true,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "ha_token",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "description": "",
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "ha_http_response",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "description": "",
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": true,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "ha_url",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "ha_request_body",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "description": "",
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "ha_sensor_name",
+        "m_stringValue": "leapmotor_c10_1",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [
+            {
+              "key": "com.arlosoft.macrodroid:id/title$13",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Variables",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1783,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1753,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1814,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1753) - (1024, 1814)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$12",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Text size",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1648,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1618,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1679,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1618) - (1024, 1679)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$9",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Delete macro",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1243,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1213,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1274,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1213) - (1024, 1274)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$11",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Test macro",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1513,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1483,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1544,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1483) - (1024, 1544)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$10",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Test actions",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1378,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1348,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1409,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1348) - (1024, 1409)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$15",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Show log",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 2053,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 2023,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 2084,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 2023) - (1024, 2084)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$14",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Local variable display",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 719,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1918,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1888,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 933,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1949,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1888) - (933, 1949)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$3",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Share macro",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 433,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 403,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 464,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 403) - (1024, 464)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$4",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Share to nearby device",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 568,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 538,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 599,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 538) - (1024, 599)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$2",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Select category",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 298,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 268,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 329,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 268) - (1024, 329)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$7",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Show line numbers",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 720,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 973,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 943,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 934,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1004,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 943) - (934, 1004)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$8",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Clone macro",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 1108,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 1078,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 1139,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 1078) - (1024, 1139)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$5",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Share as Image",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 703,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 673,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 734,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 673) - (1024, 734)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Disable Macro",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 765,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 163,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 133,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 1024,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 194,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 133) - (1024, 194)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            },
+            {
+              "key": "com.arlosoft.macrodroid:id/title$6",
+              "variable": {
+                "entries": [
+                  {
+                    "key": "text",
+                    "variable": {
+                      "textValue": "Allow logging",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerX",
+                    "variable": {
+                      "intValue": 720,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "centerY",
+                    "variable": {
+                      "intValue": 838,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startX",
+                    "variable": {
+                      "intValue": 506,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "startY",
+                    "variable": {
+                      "intValue": 808,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endX",
+                    "variable": {
+                      "intValue": 934,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "endY",
+                    "variable": {
+                      "intValue": 869,
+                      "variableType": 1,
+                      "type": "IntegerValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  },
+                  {
+                    "key": "bounds",
+                    "variable": {
+                      "textValue": "(506, 808) - (934, 869)",
+                      "variableType": 2,
+                      "type": "StringValue"
+                    },
+                    "variableType": 11,
+                    "type": "DictionaryEntry"
+                  }
+                ],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "variableType": 11,
+              "type": "DictionaryEntry"
+            }
+          ],
+          "isArray": false,
+          "parents": [],
+          "variableType": 4,
+          "parentKeys": [],
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "screen_contents",
+        "m_stringValue": "",
+        "m_type": 4,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "tv_soc",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "tvCarLockState",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": true,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "tvCarState",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "tvHomeAirTemp1",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "tvHomeCarTemp1",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0,
+        "m_intValue": 0,
+        "m_name": "tvRemainMileage",
+        "m_stringValue": "",
+        "m_type": 2,
+        "supportsInput": false,
+        "supportsOutput": true
+      }
+    ],
+    "localVarsAlphabetical": false,
+    "m_GUID": -7047762387710007000,
+    "m_actionList": [
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0,
+        "m_doubleRandomMin": 0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{fg_app_package}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0,
+          "m_intValue": 0,
+          "m_name": "current_app",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -8724623711814659000,
+        "m_classType": "SetVariableAction",
+        "m_comment": "Saves current app so we can switch back to it after",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationName": "Leapmotor",
+        "m_excludeFromRecents": true,
+        "m_packageToLaunch": "com.leapmotorinternational.global",
+        "m_startNew": true,
+        "option": 0,
+        "disableLogging": false,
+        "m_SIGUID": -5574080515886164000,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_fixedOptionCount": 20,
+        "m_option": 1,
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -6050481545856281000,
+        "m_classType": "LoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": false,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": false,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -7706139737544855000,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -8790859757439415000,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": [
+                "com.leapmotorinternational.global:id/btLpHomeData",
+                "text"
+              ]
+            },
+            "dictionaryType": 2,
+            "enableRegex": false,
+            "m_booleanValue": false,
+            "m_doubleValue": 0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": "energy",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0,
+              "m_intValue": 0,
+              "m_name": "screen_contents",
+              "m_stringValue": "",
+              "m_type": 4,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -4845151704121669000,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -9023247692288987000,
+        "m_classType": "BreakFromLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -6307206409900806000,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 250,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "disableLogging": false,
+        "m_SIGUID": -5258470354621895000,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -6109239851763916000,
+        "m_classType": "EndLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvHomeAirTemp1][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvHomeAirTemp1",
+        "disableLogging": false,
+        "m_SIGUID": -7084572849701434000,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvHomeCarTemp1][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvHomeCarTemp1",
+        "disableLogging": false,
+        "m_SIGUID": -8299156515173922000,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvCarLockState][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            ".*",
+            "0"
+          ]
+        },
+        "variableName": "tvCarLockState",
+        "disableLogging": false,
+        "m_SIGUID": -5093189699802885000,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvRemainMileage][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvRemainMileage",
+        "disableLogging": false,
+        "m_SIGUID": -9011865796741375000,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tvRemainMileage][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "\\d+\\.?\\d*",
+            "0"
+          ]
+        },
+        "variableName": "tvRemainMileage",
+        "disableLogging": false,
+        "m_SIGUID": -6738222104890266000,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": [
+            "com.leapmotorinternational.global:id/tvLockCarState",
+            "text"
+          ]
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0,
+        "m_doubleRandomMin": 0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{lv=screen_contents[com.leapmotorinternational.global:id/tvCarState][text]}",
+        "m_otherBooleanVariable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0,
+          "m_intValue": 0,
+          "m_name": "screen_contents",
+          "m_stringValue": "",
+          "m_type": 4,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0,
+          "m_intValue": 0,
+          "m_name": "tvCarState",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -8495214930453570000,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0,
+        "m_doubleRandomMin": 0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{lv=screen_contents[com.leapmotorinternational.global:id/tvLockCarState][text]}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0,
+          "m_intValue": 0,
+          "m_name": "tvCarLockState",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -4854749217183758000,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 3,
+          "contentDescription": "",
+          "longClick": false,
+          "skipCount": "0",
+          "textContent": "340",
+          "textMatchOption": 1,
+          "viewId": "com.leapmotorinternational.global:id/tvRemainMileage",
+          "xyPercentages": false,
+          "xyPoint": {
+            "x": 153,
+            "y": 371
+          },
+          "type": "Click"
+        },
+        "disableLogging": false,
+        "m_SIGUID": -5765950969733918000,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_fixedOptionCount": 20,
+        "m_option": 1,
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -5378737405567709000,
+        "m_classType": "LoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": false,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": false,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -7348483279499320000,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "disableLogging": false,
+        "m_SIGUID": -8808725415253886000,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": [
+                "com.leapmotorinternational.global:id/tv_soc",
+                "text"
+              ]
+            },
+            "dictionaryType": 2,
+            "enableRegex": true,
+            "m_booleanValue": false,
+            "m_doubleValue": 0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 1,
+            "m_stringEqual": true,
+            "m_stringValue": "[0-9]*%",
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0,
+              "m_intValue": 0,
+              "m_name": "screen_contents",
+              "m_stringValue": "",
+              "m_type": 4,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "disableLogging": false,
+            "m_SIGUID": -7486175395469201000,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -5755355290951482000,
+        "m_classType": "BreakFromLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -5421031087015480000,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 250,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "disableLogging": false,
+        "m_SIGUID": -7768159721836353000,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "disableLogging": false,
+        "m_SIGUID": -7706211508336877000,
+        "m_classType": "EndLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dictionaryKeys": {
+          "keys": []
+        },
+        "forceScreenRefresh": false,
+        "includeOverlays": false,
+        "includeScreenLocation": true,
+        "includeWithoutText": false,
+        "isLocalVar": false,
+        "variableName": "screen_contents",
+        "disableLogging": false,
+        "m_SIGUID": -6998534449255968000,
+        "m_classType": "ReadScreenContentsAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_option": 2,
+        "m_text": "{lv=screen_contents[com.leapmotorinternational.global:id/tv_soc][text]}",
+        "m_textManipulation": {
+          "type": "ExtractTextManipulation",
+          "params": [
+            "[0-9]*",
+            "0"
+          ]
+        },
+        "variableName": "tv_soc",
+        "disableLogging": false,
+        "m_SIGUID": -7760486185396046000,
+        "m_classType": "TextManipulationAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0,
+        "m_doubleRandomMin": 0,
+        "m_falseLabel": "False",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "{\n  \"state\": \"{lv=tvCarState}\",\n  \"attributes\": {\n    \"battery_percent\": {lv=tv_soc},\n    \"air_temp\": {lv=tvHomeAirTemp1},\n    \"car_temp\": {lv=tvHomeCarTemp1},\n    \"lock_state\": \"{lv=tvCarLockState}\",\n    \"remaining_range\": {lv=tvRemainMileage},\n    \"friendly_name\": \"Leapmotor C10\",\n    \"icon\": \"mdi:car-electric\"\n  },\n  \"force_update\": true\n}",
+        "m_trueLabel": "True",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": true,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0,
+          "m_intValue": 0,
+          "m_name": "ha_request_body",
+          "m_stringValue": "",
+          "m_type": 2,
+          "supportsInput": false,
+          "supportsOutput": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -5809352601180140000,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "cancelPrevious": false,
+        "m_backgroundColor": -14606047,
+        "m_displayIcon": false,
+        "m_duration": 0,
+        "m_horizontalPosition": 0,
+        "m_imageName": "launcher_no_border",
+        "m_imagePackageName": "com.arlosoft.macrodroid",
+        "m_imageResourceName": "launcher_no_border",
+        "m_messageText": "{lv=ha_request_body}",
+        "m_position": 0,
+        "m_textColor": -1,
+        "m_tintIcon": false,
+        "maintainSpaces": false,
+        "useTextOnly": true,
+        "disableLogging": false,
+        "m_SIGUID": -7326275412330539000,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": true,
+        "m_isOrCondition": false
+      },
+      {
+        "requestConfig": {
+          "allowAnyCertificate": false,
+          "basicAuthEnabled": false,
+          "basicAuthPassword": "",
+          "basicAuthUsername": "",
+          "blockNextAction": false,
+          "clientCertEnabled": false,
+          "clientCertKeyStoreDisplayName": "",
+          "clientCertKeyStoreUri": "",
+          "clientCertPassword": "",
+          "contentBodyDynamicFileName": "",
+          "contentBodyFileDisplayName": "",
+          "contentBodyFileUri": "",
+          "contentBodyFolderDisplayName": "",
+          "contentBodyFolderUri": "",
+          "contentBodySource": 0,
+          "contentBodyText": "{lv=ha_request_body}",
+          "contentType": "application/json",
+          "followRedirects": true,
+          "headerParams": [
+            {
+              "paramName": "Authorization",
+              "paramValue": "Bearer {lv=ha_token}"
+            }
+          ],
+          "localFileUri": "",
+          "prettifyJson": true,
+          "queryParams": [],
+          "requestTimeOutSeconds": 30,
+          "requestType": 1,
+          "responseVariableName": "ha_http_response",
+          "saveResponseFileName": "",
+          "saveResponseFolderPathDisplayName": "",
+          "saveResponseFolderPathUri": "",
+          "saveResponseType": 1,
+          "saveReturnCodeToVariable": false,
+          "saveReturnHeadersToVariable": false,
+          "urlToOpen": "{lv=ha_url}/api/states/sensor.{lv=ha_sensor_name}",
+          "useLocalFileUri": false,
+          "useStaticContentBodyFile": true
+        },
+        "disableLogging": false,
+        "m_SIGUID": -7486605015029852000,
+        "m_classType": "HttpRequestAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationNameList": [
+          "Leapmotor"
+        ],
+        "m_packageNameList": [
+          "com.leapmotorinternational.global"
+        ],
+        "option": 0,
+        "disableLogging": false,
+        "m_SIGUID": -8234567890123457000,
+        "m_classType": "KillBackgroundAppAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "cancelPrevious": false,
+        "m_backgroundColor": -14606047,
+        "m_displayIcon": false,
+        "m_duration": 0,
+        "m_horizontalPosition": 0,
+        "m_imageName": "launcher_no_border",
+        "m_imagePackageName": "com.arlosoft.macrodroid",
+        "m_imageResourceName": "launcher_no_border",
+        "m_messageText": "{lv=ha_http_response}",
+        "m_position": 0,
+        "m_textColor": -1,
+        "m_tintIcon": false,
+        "maintainSpaces": false,
+        "useTextOnly": true,
+        "disableLogging": false,
+        "m_SIGUID": -8644203056722357000,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": true,
+        "m_isOrCondition": false
+      },
+      {
+        "launchByPackageName": "{lv=current_app}",
+        "m_excludeFromRecents": false,
+        "m_startNew": false,
+        "option": 1,
+        "disableLogging": false,
+        "m_SIGUID": -6977148961276888000,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_category": "Uncategorized",
+    "m_constraintList": [
+      {
+        "checkThisMacro": true,
+        "m_invoked": false,
+        "m_macroIds": [],
+        "m_macroNames": [],
+        "m_timePeriodSeconds": 1800,
+        "disableLogging": false,
+        "m_SIGUID": -8159769517438863000,
+        "m_classType": "LastRunTimeConstraint",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_locked": false,
+        "disableLogging": false,
+        "m_SIGUID": -4867293691440642000,
+        "m_classType": "DeviceLockedConstraint",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_description": "",
+    "m_descriptionOpen": true,
+    "m_enabled": true,
+    "m_excludeLog": false,
+    "m_headingColor": 0,
+    "m_isOrCondition": false,
+    "m_name": "Leapmotor to Home Assistant",
+    "m_triggerList": [
+      {
+        "m_screenOn": false,
+        "disableLogging": false,
+        "m_SIGUID": -5834856747979310000,
+        "m_classType": "ScreenOnOffTrigger",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ]
+  },
+  "macroExportVersion": 1
+}

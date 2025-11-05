@@ -1,0 +1,136 @@
+title: EV
+icon: mdi:car-electric
+type: custom:layout-card
+layout_type: grid
+layout:
+  grid-template-columns: 500px 1fr
+  grid-gap: 0px
+  margin: 0px 0px 0px 0px
+cards:
+  - type: vertical-stack
+    cards:
+      - type: horizontal-stack
+        cards:
+          - type: custom:mushroom-template-card
+            primary: |
+              {{ states('sensor.leapmotor_c10_1') }}
+            icon: mdi:car-electric
+            icon_color: |
+              {{ 'green' if states('sensor.leapmotor_c10_1') == 'parked' else 'blue' }}
+            card_mod:
+              style: |
+                ha-card {
+                    width: 162px;
+                }
+
+          - type: custom:mushroom-template-card
+            primary: |
+              {{ states('sensor.leapmotor_c10_lock_state_1') }}
+            icon: mdi:car-door-lock
+            icon_color: |
+              {{ 'green' if states('sensor.leapmotor_c10_lock_state_1') == 'locked' else 'red' }}
+            card_mod:
+              style: |
+                ha-card {
+                    width: 162px;
+                }
+
+          - type: custom:mushroom-template-card
+            primary: Battery
+            secondary: |
+              {{ states('sensor.leapmotor_c10_battery_1') }}%
+            icon: mdi:battery
+            icon_color: |
+              {% set battery = states('sensor.leapmotor_c10_battery_1') | int %}
+              {% if battery < 20 %}red
+              {% elif battery < 50 %}orange
+              {% else %}green{% endif %}
+            card_mod:
+              style: |
+                ha-card {
+                    width: 162px;
+                }
+
+      - type: horizontal-stack
+        cards:
+          - type: custom:mini-graph-card
+            entities:
+              - sensor.leapmotor_c10_car_temperature_1
+            graph: line
+            hour24: true
+            hours_to_show: 24
+            points_per_hour: 10
+            update_interval: 60
+            name: Interior Temp
+            unit: "°C"
+            show:
+              extrema: false
+              icon: false
+              name: true
+            height: 50
+            font_size: 60
+            color_thresholds:
+              - value: -10
+                color: "#2196f3"
+              - value: 5
+                color: "#4caf50"
+              - value: 15
+                color: "#4caf50"
+              - value: 30
+                color: "#ff9800"
+              - value: 40
+                color: "#f44336"
+            card_mod:
+              style: |
+                ha-card {
+                    width: 162px;
+                }
+
+          - type: custom:mini-graph-card
+            entities:
+              - sensor.leapmotor_c10_air_temperature_1
+            graph: line
+            hour24: true
+            hours_to_show: 24
+            points_per_hour: 10
+            update_interval: 60
+            name: Exterior Temp
+            unit: "°C"
+            show:
+              extrema: false
+              icon: false
+              name: true
+            height: 50
+            font_size: 60
+            color_thresholds:
+              - value: -10
+                color: "#2196f3"
+              - value: 5
+                color: "#4caf50"
+              - value: 15
+                color: "#4caf50"
+              - value: 30
+                color: "#ff9800"
+              - value: 40
+                color: "#f44336"
+            card_mod:
+              style: |
+                ha-card {
+                    width: 162px;
+                }
+
+          - type: custom:mushroom-template-card
+            primary: Range
+            secondary: |
+              {{ states('sensor.leapmotor_c10_range_1') }} km
+            icon: mdi:map-marker-distance
+            icon_color: |
+              {% set range = states('sensor.leapmotor_c10_range_1') | int %}
+              {% if range < 50 %}red
+              {% elif range < 150 %}orange
+              {% else %}green{% endif %}
+            card_mod:
+              style: |
+                ha-card {
+                    width: 162px;
+                }
