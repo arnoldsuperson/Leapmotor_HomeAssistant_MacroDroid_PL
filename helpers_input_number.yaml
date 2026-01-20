@@ -1,0 +1,37 @@
+leapmotor_t03_battery:
+  name: "Leapmotor T03 Battery"
+  min: 0
+  max: 100
+  step: 1
+  unit_of_measurement: "%"
+
+leapmotor_t03_range:
+  name: "Leapmotor T03 Range"
+  min: 0
+  max: 1000
+  step: 1
+  unit_of_measurement: "km"
+  icon: mdi:map-marker-distance
+
+leapmotor_t03_mileage:
+  name: "Leapmotor T03 Mileage"
+  min: 0
+  max: 1000000
+  step: 1
+  unit_of_measurement: "km"
+  icon: mdi:map-marker-distance
+
+leapmotor_t03_average_usage_6_weeks:
+  name: "Leapmotor T03 Average kWh/100km"
+  min: 0
+  max: 100
+  unit_of_measurement: "kWh/100km"
+  icon: mdi:fuel-cell
+
+leapmotor_t03_total_kw:
+  name: "Leapmotor T03 Total Usage"
+  min: 0
+  max: 1000000
+  step: 1
+  unit_of_measurement: "kWh"
+  icon: mdi:lightning-bolt

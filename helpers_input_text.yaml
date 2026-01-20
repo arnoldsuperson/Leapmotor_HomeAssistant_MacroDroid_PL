@@ -1,0 +1,14 @@
+leapmotor_t03_state:
+  name: "Leapmotor T03"
+  icon: mdi:car-electric
+  max: 255
+
+leapmotor_t03_lock_state:
+  name: "Leapmotor T03 Lock State"
+  icon: mdi:car-door-lock
+  max: 255
+
+leapmotor_t03_last_update:
+  name: "Leapmotor T03 Last Update"
+  icon: mdi:clock-outline
+  max: 255

@@ -1,5 +1,10 @@
 # Leapmotor to Home Assistant Integration
 
+This is a fork of 2ZZ/Leapmotor_HomeAssistant_MacroDroid repo that works with polish version of the app.
+It's mostly configured to support T03. Note that sensors are in english but actual strings from the app are in Polish, It's up to the user to change everything to suit themselves. NO SUPPORT IS GIVEN FOR ANY AND ALL ISSUES.
+
+-------------------
+
 This project provides a MacroDroid-based integration to sync Leapmotor vehicle data to Home Assistant. Since Leapmotor doesn't provide an official API, this solution uses screen scraping via MacroDroid on Android to extract vehicle information and push it to Home Assistant via the REST API.
 
 ## Overview
@@ -18,8 +23,8 @@ The integration tracks the following vehicle data:
 - Battery percentage
 - Lock state (locked/unlocked)
 - Remaining range (km)
-- Interior temperature
-- Exterior temperature
+- Average kWh/100km
+- Total mileage
 
 ## Prerequisites
 
@@ -29,7 +34,7 @@ The integration tracks the following vehicle data:
 - **Leapmotor App** installed and logged in on the same Android device
 - **Home Assistant** instance (local or cloud accessible)
 
-### Required Home Assistant Add-ons/Integrations
+### Required Home Assistant Add-ons/Integrations (Only if using custom dashboard)
 
 - [Custom Layout Card](https://github.com/thomasloven/lovelace-layout-card) (HACS)
 - [Mushroom Cards](https://github.com/piitaya/lovelace-mushroom) (HACS)
@@ -42,20 +47,16 @@ The integration tracks the following vehicle data:
 
 #### 1.1 Create Template Sensors
 
-Add the contents of `sensor.yaml` to your Home Assistant configuration.
-
-**Option A: If using `configuration.yaml` directly:**
+Add the contents of `.yaml` files to your Home Assistant configuration.
 
 ```yaml
 # Add to configuration.yaml
-template: !include sensor.yaml
+template: !include template.yaml
+input_text: !include helpers_input_text.yaml
+input_number: !include helpers_input_number.yaml
 ```
 
-Then place `sensor.yaml` in your Home Assistant config directory.
-
-**Option B: If you already have template sensors:**
-
-Copy the sensor definitions from `sensor.yaml` and merge them into your existing template configuration.
+Then place all `.yaml` files except `dashboard.yaml` in your Home Assistant config directory.
 
 #### 1.2 Create a Long-Lived Access Token
 
@@ -96,11 +97,6 @@ After importing, you need to configure three local variables:
 
    - **`ha_token`** (Secure): The Long-Lived Access Token from Step 1.2
 
-   - **`ha_sensor_name`** (not secure): The sensor entity ID suffix
-     - Default: `leapmotor_c10_1`
-     - This creates: `sensor.leapmotor_c10_1`
-     - Change if you have multiple vehicles or prefer a different name
-
 #### 2.3 Test the Macro
 
 1. Make sure your device is unlocked and the Leapmotor app is logged in
@@ -110,14 +106,21 @@ After importing, you need to configure three local variables:
 
    - It will open the Leapmotor app
    - Wait for the home screen to load
+   - Scrape the data
    - Navigate to the energy/battery details
+   - Scrape the data
+   - Go back to main screen
+   - Open mileage details
    - Scrape the data
    - Send it to Home Assistant
    - Return to your previous app
 
-5. Check Home Assistant Developer Tools → States to verify `sensor.leapmotor_c10_1` was created
+5. Check Home Assistant Developer Tools → States to verify new sensors were created.
 
-### Step 3: Add Dashboard
+
+## Below instructions are unchanged from main english repo, some stuff may be different.
+
+### Step 3: Add Dashboard 
 
 #### 3.1 Create a New Dashboard View
 

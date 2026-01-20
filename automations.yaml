@@ -1,0 +1,59 @@
+- alias: "Leapmotor push → helpers"
+  id: 02835658-4970-48a4-a6d2-6931b87ecd3c
+  mode: queued
+  trigger:
+    - platform: webhook
+      webhook_id: leapmotor_t03
+      local_only: true
+
+  variables:
+    payload: "{{ trigger.json if trigger.json is not none else trigger.data }}"
+
+  action:
+    - service: input_text.set_value
+      target:
+        entity_id: input_text.leapmotor_t03_state
+      data:
+        value: "{{ payload.get('state', '') }}"
+
+    - service: input_number.set_value
+      target:
+        entity_id: input_number.leapmotor_t03_battery
+      data:
+        value: "{{ payload.get('attributes', {}).get('battery_percent') | float(0) }}"
+
+    - service: input_number.set_value
+      target:
+        entity_id: input_number.leapmotor_t03_range
+      data:
+        value: "{{ payload.get('attributes', {}).get('remaining_range') | float(0) }}"
+
+    - service: input_number.set_value
+      target:
+        entity_id: input_number.leapmotor_t03_mileage
+      data:
+        value: "{{ payload.get('attributes', {}).get('mileage') | float(0) }}"
+
+    - service: input_text.set_value
+      target:
+        entity_id: input_text.leapmotor_t03_lock_state
+      data:
+        value: "{{ payload.get('attributes', {}).get('lock_state', '') }}"
+
+    - service: input_text.set_value
+      target:
+        entity_id: input_text.leapmotor_t03_last_update
+      data:
+        value: "{{ payload.get('attributes', {}).get('last_update', '') }}"
+        
+    - service: input_number.set_value
+      target:
+        entity_id: input_number.leapmotor_t03_average_usage_6_weeks
+      data:
+        value: "{{ payload.get('attributes', {}).get('average_usage_6_weeks') | float(0) }}"
+
+    - service: input_number.set_value
+      target:
+        entity_id: input_number.leapmotor_t03_total_kw
+      data:
+        value: "{{ payload.get('attributes', {}).get('total_kw') | float(0) }}"
